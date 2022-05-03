@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.home {
+	padding: 0.1rem;
+	display: flex;
+	flex-wrap: wrap;
+	
+	h1 {
+		// font-family:'Tapestry';
+		font-family:'Merriweather', 'serif';
+		// font-family:'Lobster', cursive;
+		// font-family: 'Josefin Sans', sans-serif;
+		width: 70%;
+		padding-top: 3rem;
+		margin-left: 2rem;
+		margin-right: -5rem;
+		// color: #6414dbe2;
+		color: rgba(0, 0, 0, 0.814);
+		font-size: 1.4rem;
+		// -webkit-text-stroke: 2.5px #ab08e1e8;
+			// text-shadow:0.3px 0.3px #67e4da, -0.4px -0.4px #67e4da;
+		}
+
+img {
+	
+		max-height: 80vh;
+		margin-bottom: 25px;
+		margin-top: 10px;
+		margin-right: 0.75rem;
+		margin-left: -50px;
+  padding-top: 5rem;
+		padding-right: 2rem;
+		
+	}
+	.info {
+		width: 50%;
+  margin: 2.5rem 3rem;
+		
+		.links {
+			width: 50%;
+			margin: 0.5rem;
+			display: flex;
+			justify-content: space-between;
+			a {
+				margin: 0 1rem;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.home {
+		flex-direction: column;
+		align-items: center;
+		padding: 1rem;
+		h1 {
+			width: 100%;
+
+		}
+
+		.info {
+			width: 100%;
+			margin: 1rem 0;
+			
+			.links {
+				width: 100%;
+				margin: 1rem 0;
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: space-between;
+				a {
+					margin: 1rem 0.75rem;
+				}
+			}
+		}
+	}
+}
+
+
+
+
+
